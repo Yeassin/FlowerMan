@@ -1,0 +1,174 @@
+.searchBar .modal-dialog{
+    margin: 0;
+    width: 100% !important;
+    max-width: none;
+}
+
+.searchBar .modal-header{
+    align-self: center;
+    width: 80%;
+}
+
+.searchBar .modal-header .close {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.search-field {
+    width: 100%;
+}
+
+.search-field .form-control {
+    border-radius: 20px;
+}
+
+.top-container {
+    display: flex;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.top-items {
+    display: flex;
+    align-self: center;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.top-items div {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-items div:hover {
+    cursor: pointer;
+}
+
+.top-items img {
+    height: 32px;
+    width: 32px;
+    margin: auto;
+}
+
+.search {
+    font-size: 18px;
+}
+
+.search img {
+    display: block;
+}
+
+.account {
+    font-size: 18px;
+}
+
+.account img {
+    display: block;
+}
+
+.cart {
+    font-size: 18px;
+}
+
+.cart img {
+    display: block;
+}
+
+.nav-container {
+    background-color: white;
+    border-top: black;
+    border-bottom: black;
+    border-style:  solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    
+}
+
+#basic-navbar-nav {
+    justify-content: center;
+}
+
+.navbar-nav a {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+}
+
+.carousel-section {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.products-heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-grid {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 40px;
+}
+
+.product-grid .card {
+    border: none;
+    text-align: center;
+}
+
+.footer-container {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.links a {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgba(255, 255, 255, 0.95);
+    text-decoration: none;
+}
+
+.social-media {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
+
+.social-media a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
