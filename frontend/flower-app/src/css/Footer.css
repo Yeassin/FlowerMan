@@ -1,0 +1,41 @@
+.footer-container {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.links a {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgba(255, 255, 255, 0.95);
+    text-decoration: none;
+}
+
+.social-media {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
+
+.social-media a {
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,122 @@
+.searchBar .modal-dialog{
+    margin: 0;
+    width: 100% !important;
+    max-width: none;
+}
+
+.searchBar .modal-header{
+    align-self: center;
+    width: 80%;
+}
+
+.searchBar .modal-header .close {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.search-field {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.search-field img {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    position: absolute;
+    align-self: center;
+}
+
+.search-field img:hover {
+    cursor: pointer;
+}
+
+.search-field .form-control {
+    border-radius: 20px;
+}
+
+.top-container {
+    display: flex;
+    background-color: white;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.top-items {
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.top-items div {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-items div:hover {
+    cursor: pointer;
+}
+
+.top-items img {
+    height: 32px;
+    width: 32px;
+    margin: auto;
+}
+
+.search {
+    font-size: 18px;
+}
+
+.search img {
+    display: block;
+}
+
+.account {
+    font-size: 18px;
+}
+
+.account img {
+    display: block;
+}
+
+.cart {
+    font-size: 18px;
+}
+
+.cart img {
+    display: block;
+}
+
+.nav-container {
+    background-color: white;
+    border-top: black;
+    border-bottom: black;
+    border-style:  solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    
+}
+
+#basic-navbar-nav {
+    justify-content: center;
+}
+
+.navbar-nav a {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+}
