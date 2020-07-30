@@ -53,7 +53,7 @@ export default class Contact extends Component {
                         <Form.Label>Message</Form.Label>
                         <Form.Control type="text" as="textarea" rows="5" />
                     </Form.Group>
-                    <Button variant="primary" size="lg" block>
+                    <Button variant="primary" size="lg" block id="send-msg-btn">
                         Send Message
                     </Button>
                 </Form>

@@ -45,22 +45,22 @@
     text-align: center;
 }
 
-.btn {
+#send-msg-btn {
     background-color: purple;
     border: none;
     outline: none;
 }
 
-.btn:focus {
+#send-msg-btn:focus {
     background-color: indigo;
     outline: none;
 }
 
-.btn:active {
+#send-msg-btn:active {
     background-color: indigo !important;
     outline: none;
 }
 
-.btn:hover {
+#send-msg-btn:hover {
     background-color: darkviolet;
 }
