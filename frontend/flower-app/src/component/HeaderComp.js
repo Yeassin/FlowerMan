@@ -159,9 +159,9 @@ export default class HeaderComp extends Component {
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <div id="occasions" onMouseLeave={this.occasionsDisable}>
+                <div id="occasions" >
                     {this.state.occasions ?
-                    <div id="occasions-lists">
+                    <div id="occasions-lists" onMouseLeave={this.occasionsDisable}>
                         <ul>
                             <li>
                                 <a href="/">Anniversary</a>
