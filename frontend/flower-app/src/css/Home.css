@@ -1,0 +1,28 @@
+.carousel-section {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.products-heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-grid {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 40px;
+}
+
+.product-grid .card {
+    border: none;
+    text-align: center;
+}
+
