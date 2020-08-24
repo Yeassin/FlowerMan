@@ -1,41 +1,17 @@
-.footer-container {
-    background-color: black;
-    height: 200px;
-    width: 100%;
-    position: absolute;
-    text-align: center;
+#footer-container {
+    height: 150px;
 }
 
-.links {
-    margin-top: 20px;
-    text-align: center;
-    display: inline-block;
+.social-container {
+    display: inline-flex;
 }
 
-.links a {
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 36px;
-    color: white;
-    text-decoration: none;
+.social-container a {
+    margin: 20px;
 }
 
-.links a:hover {
-    color: rgba(255, 255, 255, 0.95);
-    text-decoration: none;
-}
-
-.social-media {
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-
-.social-media img {
+.social-container img {
     width: 32px;
     height: 32px;
-}
-
-.social-media a {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
 }

@@ -1,29 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './component/Home';
-import HeaderComp from './component/HeaderComp'
-import Footer from './component/FooterComp';
-import About from './component/About';
-import Contact from './component/Contact';
-import Signup from './component/Signup';
-
+import Home from './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Shop from './pages/Shop';
+import Services from './pages/Services';
 
 function App() {
   return (
-    <div>
-      <HeaderComp/>
+    <div className="App">
+      <Header/>
       <Router>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
-        <Route path="/signup" component={Signup}/>
-        <Route />
+        <Route path="/shop" component={Shop}/>
+        <Route path="/services" component={Services}/>
       </Router>
       <Footer/>
     </div>
-
   );
 }
 

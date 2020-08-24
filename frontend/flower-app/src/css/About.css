@@ -1,8 +1,75 @@
 .heading {
-    text-align: center;
+    width: 100%;
+    
 }
 
-.paragraph {
-    margin-left: 50px;
-    margin-right: 50px;
+.about-container {
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.about-container img {
+    width: 400px;
+    margin: 5rem;
+}
+
+.about-container p {
+    margin: 5rem;
+    text-align: justify;
+    align-self: center;
+    font-size: xx-large;
+}
+
+.categories {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    height: fit-content;
+}
+
+.category-card {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-card:hover {
+    cursor: pointer;
+}
+
+.category-card:hover .overlay-bg {
+    display: block;
+}
+
+.category-card:hover .card-img-overlay {
+    display: block;
+}
+
+.card-img-overlay {
+    display: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+    top: auto;
+    bottom: auto;
+}
+
+.overlay-bg {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.design-container, .event-container {
+    width: 60%;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
 }
