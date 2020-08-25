@@ -1,0 +1,36 @@
+.design-sections {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.description {
+    align-self: center;
+    width: 50%;
+}
+
+.wedding-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wedding-container img {
+    width: 50%;
+}
+
+.tabletop-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tabletop-container img {
+    width: 50%;
+}
+
+.special-design-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.special-design-container img {
+    width: 50%;
+}

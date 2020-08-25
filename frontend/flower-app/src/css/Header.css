@@ -3,10 +3,23 @@ header {
     z-index: 100;
 }
 
-.nav-link a:hover .dropdown-menu {
-    display: block;
+#services-dropdown {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    margin: 0px;
+    right: auto;
+    bottom: auto;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    z-index: 1000;
 }
-
 
 .dropdown-toggle::after {
     content: none;
