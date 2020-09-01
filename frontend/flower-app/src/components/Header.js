@@ -59,7 +59,7 @@ export default class Header extends Component {
                         <Nav.Link href="/services" onMouseEnter={this.disableServices}>SERVICES</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/designs" onMouseEnter={this.disableServices}>DESIGNS</Nav.Link>
+                        <Nav.Link href="/designs" onMouseEnter={this.disableServices}>CREATIONS</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/" onMouseEnter={this.disableServices}>

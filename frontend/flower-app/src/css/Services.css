@@ -1,3 +1,21 @@
+.services-banner {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.services-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services-heading {
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
 .design-sections {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -11,26 +29,32 @@
 .wedding-container {
     display: flex;
     flex-direction: row;
+    height: 50vh;
 }
 
 .wedding-container img {
     width: 50%;
+    object-fit: cover;
 }
 
 .tabletop-container {
     display: flex;
     flex-direction: row-reverse;
+    height: 50vh;
 }
 
 .tabletop-container img {
     width: 50%;
+    object-fit: cover;
 }
 
 .special-design-container {
     display: flex;
     flex-direction: row;
+    height: 50vh;
 }
 
 .special-design-container img {
     width: 50%;
+    object-fit: cover;
 }

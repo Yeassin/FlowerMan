@@ -2,6 +2,7 @@
     height: 50vh;
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .designs-banner img {
@@ -26,6 +27,7 @@
 
 .card {
     height: fit-content;
+    border: none;
 }
 
 .category-card {
@@ -40,6 +42,7 @@
 
 .category-card:hover .overlay-bg {
     display: block;
+    transition: ease-in-out 0.5s;
 }
 
 .category-card:hover .card-img-overlay {
@@ -61,12 +64,21 @@
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
+    transition: ease-in-out 0.3s;
     display: none;
 }
 
 .design-container, .event-container {
-    width: 60%;
+    width: 75%;
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-columns .card {
+    display: block;
+}
+
+span[class$="_footer"] {
+    display: none;
 }

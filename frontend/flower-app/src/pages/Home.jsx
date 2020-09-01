@@ -27,7 +27,7 @@ export default class Home extends Component {
                 <div className="intro-container">
                     <div className="headline">
                         <h1>Floral design starts here.</h1>
-                        <h3><a>Learn More</a></h3>
+                        <h3><a href="/designs">Learn More</a></h3>
                     </div>
                     <video autoPlay loop muted>
                         <source src={intro} type="video/mp4" />
