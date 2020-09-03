@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/FlowerMan/static/css/main.8437a7a2.chunk.css",
-    "main.js": "/FlowerMan/static/js/main.6031f22c.chunk.js",
-    "main.js.map": "/FlowerMan/static/js/main.6031f22c.chunk.js.map",
+    "main.js": "/FlowerMan/static/js/main.9760cca9.chunk.js",
+    "main.js.map": "/FlowerMan/static/js/main.9760cca9.chunk.js.map",
     "runtime-main.js": "/FlowerMan/static/js/runtime-main.f428282c.js",
     "runtime-main.js.map": "/FlowerMan/static/js/runtime-main.f428282c.js.map",
     "static/css/2.11829350.chunk.css": "/FlowerMan/static/css/2.11829350.chunk.css",
-    "static/js/2.9aff6f67.chunk.js": "/FlowerMan/static/js/2.9aff6f67.chunk.js",
-    "static/js/2.9aff6f67.chunk.js.map": "/FlowerMan/static/js/2.9aff6f67.chunk.js.map",
+    "static/js/2.d204116d.chunk.js": "/FlowerMan/static/js/2.d204116d.chunk.js",
+    "static/js/2.d204116d.chunk.js.map": "/FlowerMan/static/js/2.d204116d.chunk.js.map",
     "index.html": "/FlowerMan/index.html",
-    "precache-manifest.336bab7d87a0b55e476cc89e2ee836db.js": "/FlowerMan/precache-manifest.336bab7d87a0b55e476cc89e2ee836db.js",
+    "precache-manifest.aa041985b3da2ae91cc65e57b5de45d3.js": "/FlowerMan/precache-manifest.aa041985b3da2ae91cc65e57b5de45d3.js",
     "service-worker.js": "/FlowerMan/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/FlowerMan/static/css/2.11829350.chunk.css.map",
     "static/css/main.8437a7a2.chunk.css.map": "/FlowerMan/static/css/main.8437a7a2.chunk.css.map",
-    "static/js/2.9aff6f67.chunk.js.LICENSE.txt": "/FlowerMan/static/js/2.9aff6f67.chunk.js.LICENSE.txt",
+    "static/js/2.d204116d.chunk.js.LICENSE.txt": "/FlowerMan/static/js/2.d204116d.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/FlowerMan/static/media/Logo.b3847305.png",
     "static/media/bridal-stage.jpg": "/FlowerMan/static/media/bridal-stage.dd7e295e.jpg",
     "static/media/contact_flowers.jpg": "/FlowerMan/static/media/contact_flowers.1fc1da6d.jpg",
@@ -41,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.f428282c.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.9aff6f67.chunk.js",
+    "static/js/2.d204116d.chunk.js",
     "static/css/main.8437a7a2.chunk.css",
-    "static/js/main.6031f22c.chunk.js"
+    "static/js/main.9760cca9.chunk.js"
   ]
 }
