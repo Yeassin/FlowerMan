@@ -1,8 +1,8 @@
 {
   "name": "flower-app",
-  "homepage": "https://Yeassin.github.io/FlowerMan",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yeassin.github.io/FlowerMan",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

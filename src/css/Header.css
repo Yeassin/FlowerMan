@@ -1,51 +1,107 @@
-header {
-    width: 100%;
-    z-index: 100;
-}
-
-#services-dropdown {
-    position: absolute;
+.nav-item {
     display: none;
-    flex-direction: column;
-    margin: 0px;
-    right: auto;
-    bottom: auto;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    z-index: 1000;
 }
 
-.dropdown-toggle::after {
-    content: none;
-}
-
-.dropdown-menu {
-    text-align: center;
+#home-link {
+    display: flex;
 }
 
 .home-logo {
     width: 100px;
 }
 
-.nav-container {
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-
-.nav-item {
+#menu-link {
+    display: flex;
     margin-left: auto;
-    margin-right: auto;
+    padding: .5rem 1rem;
 }
 
-.nav-link {
-    font-size: 30px;
-    color: black;
+#menu-container {
+    border: solid silver 2px;
+    border-radius: 20px;
+}
+
+.hamburger-menu {
+    width: 85px;
+    padding: 20px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+#menu-container:active {
+    background-color: darkgray;
+}
+
+@media (min-width: 768px) {
+    .home-logo {
+        width: 100px;
+    }
+    #menu-link {
+        display: none;
+    }
+    .nav-link {
+        font-size: 20px;
+        color: black;
+    }
+    .nav-container {
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .nav-item {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    header {
+        width: 100%;
+        z-index: 100;
+    }
+    #services-dropdown {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        margin: 0px;
+        right: auto;
+        bottom: auto;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: .25rem;
+        float: left;
+        min-width: 10rem;
+        padding: .5rem 0;
+        z-index: 1000;
+    }
+    .dropdown-toggle::after {
+        content: none;
+    }
+    .dropdown-menu {
+        text-align: center;
+    }
+    .home-logo {
+        width: 100px;
+    }
+    .nav-container {
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .nav-item {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-link {
+        font-size: 30px;
+        color: black;
+    }
 }

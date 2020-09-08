@@ -23,38 +23,79 @@
 
 .description {
     align-self: center;
-    width: 50%;
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .wedding-container {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
     height: 50vh;
 }
 
 .wedding-container img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
 }
 
 .tabletop-container {
-    display: flex;
-    flex-direction: row-reverse;
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
     height: 50vh;
+    margin-top: 100px;
 }
 
 .tabletop-container img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
 }
 
 .special-design-container {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
     height: 50vh;
+    margin-top: 100px;
 }
 
 .special-design-container img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .description {
+        align-self: center;
+        width: 50%;
+    }
+    .wedding-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .wedding-container img {
+        width: 50%;
+        object-fit: cover;
+    }
+    .tabletop-container {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 0;
+    }
+    .tabletop-container img {
+        width: 50%;
+        object-fit: cover;
+    }
+    .special-design-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .special-design-container img {
+        width: 50%;
+        object-fit: cover;
+    }
 }

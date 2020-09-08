@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
@@ -12,18 +12,21 @@ import Services from './pages/Services';
 import Designs from './pages/Designs';
 
 function App() {
+  
   return (
     <div className="App">
-      <Header/>
-      <Router>
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/shop" component={Shop}/>
-        <Route path="/designs" component={Designs}/>
-        <Route path="/services" component={Services}/>
-      </Router>
-      <Footer/>
+      <Header />
+
+      <HashRouter>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/shop" component={Shop} />
+          <Route path="/designs" component={Designs} />
+          <Route path="/services" component={Services} />
+
+      </HashRouter>
+      <Footer />
     </div>
   );
 }
