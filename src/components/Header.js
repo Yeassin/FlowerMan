@@ -106,36 +106,24 @@ export default class Header extends Component {
 
                 <Modal animation={true} show={this.state.mobile_nav} onHide={this.disableMenu} id="side-menu">
                     <Modal.Body>
-                        {/* <div className="mobile-link">
-                            <a href="/FlowerMan/#/services">SERVICES</a>
-                        </div>
-                        <div className="mobile-link">
-                            <a href="/FlowerMan/#/designs">CREATIONS</a>
-                        </div>
-                        <div className="mobile-link">
-                            <a href="/FlowerMan/#/about">ABOUT</a>
-                        </div>
-                        <div className="mobile-link">
-                            <a href="/FlowerMan/#/contact">CONTACT</a>
-                        </div> */}
                         <Nav id="mobile-nav" onMouseLeave={this.disableServices}>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/services">SERVICES</Nav.Link>
+                                <Nav.Link href="/FlowerMan/#/services" onClick={this.disableMenu}>SERVICES</Nav.Link>
                             </Nav.Item>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/designs">CREATIONS</Nav.Link>
+                                <Nav.Link href="/FlowerMan/#/designs" onClick={this.disableMenu}>CREATIONS</Nav.Link>
                             </Nav.Item>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/about">ABOUT</Nav.Link>
+                                <Nav.Link href="/FlowerMan/#/about" onClick={this.disableMenu}>ABOUT</Nav.Link>
                             </Nav.Item>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/contact">CONTACT</Nav.Link>
+                                <Nav.Link href="/FlowerMan/#/contact" onClick={this.disableMenu}>CONTACT</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Modal.Body>
                     <Modal.Footer>
                         <div className="mobile-social-container">
-                            <a href="/#">
+                            <a href="https://pin.it/1k4zG99">
                                 <img src={pinterest} />
                             </a>
                             <a href="/#">

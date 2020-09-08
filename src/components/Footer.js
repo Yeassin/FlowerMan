@@ -9,7 +9,7 @@ export default class Footer extends Component {
         return (
             <footer id="footer-container">
                 <div className="social-container">
-                    <a href="/#">
+                    <a href="https://pin.it/1k4zG99">
                         <img src={pinterest} />
                     </a>
                     <a href="/#">
