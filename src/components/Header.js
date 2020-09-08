@@ -4,6 +4,8 @@ import logo from '../icons/Logo.png'
 import hamburger from '../icons/menu.png'
 import '../css/Header.css'
 import { Link } from 'react-router-dom'
+import pinterest from '../icons/pinterest.png'
+import insta from '../icons/instagram.png'
 
 export default class Header extends Component {
 
@@ -62,6 +64,12 @@ export default class Header extends Component {
             dropdown = <div id="services-dropdown" style={services_remove}></div>
         }
 
+        if (window.innerWidth >= 768 && this.state.mobile_nav) {
+            this.setState({
+                mobile_nav: false
+            })
+        }
+
         return (
             <header>
                 <Nav className="nav-container" onMouseLeave={this.disableServices}>
@@ -72,10 +80,10 @@ export default class Header extends Component {
                         <Nav.Link href="/services" onMouseEnter={this.toggleServices}>SERVICES</Nav.Link>
                         {dropdown}
                     </Nav.Item> */}
-                    <Nav.Item>
+                    <Nav.Item className="non-mobile-nav-item">
                         <Nav.Link href="/FlowerMan/#/services" onMouseEnter={this.disableServices}>SERVICES</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    <Nav.Item className="non-mobile-nav-item">
                         <Nav.Link href="/FlowerMan/#/designs" onMouseEnter={this.disableServices}>CREATIONS</Nav.Link>
                     </Nav.Item>
                     <Nav.Item id="home-link">
@@ -83,10 +91,10 @@ export default class Header extends Component {
                             <img src={logo} className="home-logo" />
                         </Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    <Nav.Item className="non-mobile-nav-item">
                         <Nav.Link href="/FlowerMan/#/about" onMouseEnter={this.disableServices}>ABOUT</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    <Nav.Item className="non-mobile-nav-item">
                         <Nav.Link href="/FlowerMan/#/contact" onMouseEnter={this.disableServices}>CONTACT</Nav.Link>
                     </Nav.Item>
                     <Nav.Item id="menu-link" onClick={this.toggleMenu}>
@@ -96,24 +104,45 @@ export default class Header extends Component {
                     </Nav.Item>
                 </Nav>
 
-                <Modal animation="true" show={this.state.mobile_nav} onHide={this.disableMenu}>
+                <Modal animation={true} show={this.state.mobile_nav} onHide={this.disableMenu} id="side-menu">
                     <Modal.Body>
-                        <Nav className="mobile-nav" onMouseLeave={this.disableServices}>
-                            <Nav.Item>
+                        {/* <div className="mobile-link">
+                            <a href="/FlowerMan/#/services">SERVICES</a>
+                        </div>
+                        <div className="mobile-link">
+                            <a href="/FlowerMan/#/designs">CREATIONS</a>
+                        </div>
+                        <div className="mobile-link">
+                            <a href="/FlowerMan/#/about">ABOUT</a>
+                        </div>
+                        <div className="mobile-link">
+                            <a href="/FlowerMan/#/contact">CONTACT</a>
+                        </div> */}
+                        <Nav id="mobile-nav" onMouseLeave={this.disableServices}>
+                            <Nav.Item className="mobile-nav-item">
                                 <Nav.Link href="/FlowerMan/#/services">SERVICES</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            <Nav.Item className="mobile-nav-item">
                                 <Nav.Link href="/FlowerMan/#/designs">CREATIONS</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            <Nav.Item className="mobile-nav-item">
                                 <Nav.Link href="/FlowerMan/#/about">ABOUT</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            <Nav.Item className="mobile-nav-item">
                                 <Nav.Link href="/FlowerMan/#/contact">CONTACT</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Modal.Body>
-
+                    <Modal.Footer>
+                        <div className="mobile-social-container">
+                            <a href="/#">
+                                <img src={pinterest} />
+                            </a>
+                            <a href="/#">
+                                <img src={insta} />
+                            </a>
+                        </div>
+                    </Modal.Footer>
                 </Modal>
             </header>
         )

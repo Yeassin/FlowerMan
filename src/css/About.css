@@ -27,12 +27,6 @@
     .heading {
         width: 100%;
     }
-    .about-container {
-        display: flex;
-        flex-direction: row;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
     #profile-pic {
         width: auto;
         margin: 3rem;
@@ -42,5 +36,14 @@
         text-align: justify;
         align-self: center;
         font-size: xx-large;
+    }
+}
+
+@media (min-width:1200px) {
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
