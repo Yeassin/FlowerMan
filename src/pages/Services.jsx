@@ -13,9 +13,6 @@ export default class Services extends Component {
                 <div className="services-banner">
                     <div className="services-heading">
                         <h1>SERVICES</h1>
-                        <p>
-                            I have designed all kinds of flowers for different kinds of occasions. 
-                        </p>
                     </div>
                     <img src={services_flowers} />
                 </div>

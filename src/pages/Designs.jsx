@@ -78,34 +78,10 @@ export default class Designs extends Component {
                 <Card className="design-image">
                     <Card.Img src="https://i.pinimg.com/originals/1a/bf/9b/1abf9b6b62f6a6c8cc43970adfadaeab.jpg" />
                 </Card>
-                <Card>
-                    <Card.Img src="" />
+                <Card className="design-image">
+                    <Card.Img src="https://i.pinimg.com/originals/04/22/78/042278393e209fa06e903a8b4c3cbd7e.jpg" />
                 </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
-                    <Card.Img src="" />
-                </Card>
-                <Card>
+                <Card className="design-image">
                     <Card.Img src="" />
                 </Card>
             </CardColumns>
@@ -130,10 +106,16 @@ export default class Designs extends Component {
                         <Card.Img src="https://i.pinimg.com/originals/5c/ac/7d/5cac7d4870bf0f78beab5ec44466a404.jpg" />
                     </Card>
                     <Card className="design-image">
-                        <Card.Img src="https://i.pinimg.com/originals/75/7f/5b/757f5b5ac83d79103ff59366f9c02d5a.jpg"/>
+                        <Card.Img src="https://i.pinimg.com/originals/75/7f/5b/757f5b5ac83d79103ff59366f9c02d5a.jpg" />
                     </Card>
                     <Card className="design-image">
-                        <Card.Img src="https://i.pinimg.com/originals/dd/06/14/dd061467db64a78e600d70aa891815ee.jpg"/>
+                        <Card.Img src="https://i.pinimg.com/originals/dd/06/14/dd061467db64a78e600d70aa891815ee.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/d9/a9/ee/d9a9eec24a0252d1c2c4b8c6a826cce0.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/47/2c/54/472c546b4bff997aa7c4cd0867a49f41.jpg" />
                     </Card>
                 </CardColumns>
             </div>
@@ -143,9 +125,6 @@ export default class Designs extends Component {
                 <div className="designs-banner">
                     <div className="designs-heading">
                         <h1>CREATIONS</h1>
-                        <p>
-                            Mohammad Din has created all kinds of different floral designs for different kinds of events and occasions. Here are some of his previous works.
-                        </p>
                     </div>
                     <img src={shop_flowers} />
                 </div>
@@ -154,12 +133,12 @@ export default class Designs extends Component {
                 </div> */}
                 <CardDeck className="categories">
                     <Card className="category-card" onClick={this.showDesigns}>
-                        <Card.Img src={flowers1} />
+                        <Card.Img src={flowers2} />
                         <Card.ImgOverlay>DESIGNS</Card.ImgOverlay>
                         <div className="overlay-bg"></div>
                     </Card>
                     <Card className="category-card" onClick={this.showEvents}>
-                        <Card.Img src={flowers2} />
+                        <Card.Img src={flowers1} />
                         <Card.ImgOverlay>WEDDINGS/EVENTS</Card.ImgOverlay>
                         <div className="overlay-bg"></div>
                     </Card>
