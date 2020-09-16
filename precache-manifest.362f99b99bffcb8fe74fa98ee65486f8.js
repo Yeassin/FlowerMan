@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7cfbc6553fec91485ef8b571cc9aba2",
+    "revision": "229b08aedfce2ffe0005e084bb850ee5",
     "url": "/FlowerMan/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FlowerMan/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "780d3f151fc8a356c295",
-    "url": "/FlowerMan/static/css/main.289cdfff.chunk.css"
+    "revision": "bf7bad7cf961bc0256ab",
+    "url": "/FlowerMan/static/css/main.9da28ca7.chunk.css"
   },
   {
     "revision": "9b15a7191bc070838d3a",
@@ -20,24 +20,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FlowerMan/static/js/2.d12f8fbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "780d3f151fc8a356c295",
-    "url": "/FlowerMan/static/js/main.2c7441f9.chunk.js"
+    "revision": "bf7bad7cf961bc0256ab",
+    "url": "/FlowerMan/static/js/main.e0751696.chunk.js"
   },
   {
     "revision": "2c328366c61493542b82",
     "url": "/FlowerMan/static/js/runtime-main.f428282c.js"
   },
   {
-    "revision": "b384730564936798bd2c87074d2bb2bb",
-    "url": "/FlowerMan/static/media/Logo.b3847305.png"
+    "revision": "b8489f7c1d5c41ac6f58f14e4b0e6898",
+    "url": "/FlowerMan/static/media/Logo.b8489f7c.png"
+  },
+  {
+    "revision": "0738679df4cf4e566f60343830da7bfa",
+    "url": "/FlowerMan/static/media/Quicksand-Bold.0738679d.ttf"
+  },
+  {
+    "revision": "865b25e449878b6b4d1f9e098ff2f510",
+    "url": "/FlowerMan/static/media/Quicksand-Medium.865b25e4.ttf"
+  },
+  {
+    "revision": "216d43ee8707910af457af569eda1dec",
+    "url": "/FlowerMan/static/media/Quicksand-Regular.216d43ee.ttf"
+  },
+  {
+    "revision": "c82b184bf7450e14adccb7b0d6117474",
+    "url": "/FlowerMan/static/media/Quicksand-SemiBold.c82b184b.ttf"
   },
   {
     "revision": "dd7e295e9faa99f4a691448d0f4a8a29",
     "url": "/FlowerMan/static/media/bridal-stage.dd7e295e.jpg"
   },
   {
-    "revision": "1fc1da6d1dd2651af12c3d04f4f74a6d",
-    "url": "/FlowerMan/static/media/contact_flowers.1fc1da6d.jpg"
+    "revision": "9236e8e34a054ec769ad94345c2d9526",
+    "url": "/FlowerMan/static/media/contact_flowers.9236e8e3.jpg"
   },
   {
     "revision": "f206c80bbe04441d99a00bf4376c9ae3",
@@ -50,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fdac3559f5ff62c245eecd3c209df1a2",
     "url": "/FlowerMan/static/media/design3.fdac3559.jpg"
+  },
+  {
+    "revision": "9fdc7407870e33a271a432918904fd2c",
+    "url": "/FlowerMan/static/media/designs.9fdc7407.jpg"
   },
   {
     "revision": "2717f3a0e7c16a4f1a2e5deb3813f673",
@@ -104,12 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FlowerMan/static/media/profile.236de94b.jpg"
   },
   {
-    "revision": "b72b3e92742b586c5e3e094e02388923",
-    "url": "/FlowerMan/static/media/services.b72b3e92.jpg"
-  },
-  {
-    "revision": "d535fadef2251db059a9ba31929b920a",
-    "url": "/FlowerMan/static/media/shop.d535fade.jpg"
+    "revision": "bac1cc313f8071dfef62903fcc0b4e6b",
+    "url": "/FlowerMan/static/media/services.bac1cc31.jpg"
   },
   {
     "revision": "1d590631ca96db243670d86353a96743",
