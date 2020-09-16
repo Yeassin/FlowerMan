@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0867badcd3317c65e4e1c809890eb955",
+    "revision": "974e7591b5f22c5bcf9bf3fc70ee0336",
     "url": "/FlowerMan/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FlowerMan/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "bdc1e62f6e4c546bfb91",
+    "revision": "35a7d30892043e4f3686",
     "url": "/FlowerMan/static/css/main.289cdfff.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FlowerMan/static/js/2.d12f8fbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdc1e62f6e4c546bfb91",
-    "url": "/FlowerMan/static/js/main.85520981.chunk.js"
+    "revision": "35a7d30892043e4f3686",
+    "url": "/FlowerMan/static/js/main.4040c975.chunk.js"
   },
   {
     "revision": "2c328366c61493542b82",
