@@ -1,8 +1,17 @@
+@font-face {
+    font-family: Gothic-Fat;
+    src: url("../fonts/Quicksand/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Gothic-Bold;
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf");
+}
+
 .designs-banner {
     height: 50vh;
     display: flex;
     align-items: center;
-    color: white;
 }
 
 .designs-banner img {
@@ -12,9 +21,11 @@
 }
 
 .designs-heading {
+    font-family: Gothic-Fat;
     justify-content: center;
     position: absolute;
     width: 100%;
+    color: white;
 }
 
 .categories {
@@ -50,6 +61,7 @@
 }
 
 .card-img-overlay {
+    font-family: Gothic-Bold;
     display: none;
     font-size: x-large;
     font-weight: bold;

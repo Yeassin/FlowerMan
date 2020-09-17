@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Gothic-Bold;
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf");
+}
+
 .intro-container {
     position: relative;
     width: 100%;
@@ -14,6 +19,7 @@
 
 .headline h1,
 h3 {
+    font-family: Gothic-Bold;
     color: white;
 }
 

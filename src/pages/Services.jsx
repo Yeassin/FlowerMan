@@ -24,7 +24,7 @@ export default class Services extends Component {
                             <p>
                                 Make your wedding very special and memorable with an amazing decorative floral design.
                             </p>
-                            <Button variant="outline-success" href="/#/designs">View My Previous Work</Button>
+                            <Button variant="outline-success" href="/FlowerMan/designs">View My Previous Work</Button>
                         </div>
                     </div>
                     <div className="tabletop-container">
@@ -34,7 +34,7 @@ export default class Services extends Component {
                             <p>
                                 Decorating your party or event with a nice centerpiece design will make it more elegant.
                             </p>
-                            <Button variant="outline-danger" href="/#/designs">View My Previous Work</Button>
+                            <Button variant="outline-danger" href="/FlowerMan/designs">View My Previous Work</Button>
                         </div>
                     </div>
                     <div className="special-design-container">
@@ -44,7 +44,7 @@ export default class Services extends Component {
                             <p>
                                 Have a special design in mind? Contact me for more information.
                             </p>
-                            <Button variant="outline-secondary" href="/#/contact">Contact Me</Button>
+                            <Button variant="outline-secondary" href="/FlowerMan/contact">Contact Me</Button>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ import design3 from '../images/gallery/designs/design3.jpg'
 import event1 from '../images/gallery/events/event1.jpg'
 import event2 from '../images/gallery/events/event2.jpg'
 import event3 from '../images/gallery/events/event3.jpg'
-import shop_flowers from '../images/shop.jpg'
+import designs_flowers from '../images/designs.jpg'
 
 export default class Designs extends Component {
 
@@ -82,7 +82,22 @@ export default class Designs extends Component {
                     <Card.Img src="https://i.pinimg.com/originals/04/22/78/042278393e209fa06e903a8b4c3cbd7e.jpg" />
                 </Card>
                 <Card className="design-image">
-                    <Card.Img src="" />
+                    <Card.Img src="https://i.pinimg.com/originals/f1/54/31/f154312c79a1585f45a7d8914ecd0baa.jpg" />
+                </Card>
+                <Card className="design-image">
+                    <Card.Img src="https://i.pinimg.com/originals/38/a7/07/38a707ba37c87654f1c396807dea6af5.jpg" />
+                </Card>
+                <Card className="design-image">
+                    <Card.Img src="https://i.pinimg.com/originals/ff/3b/67/ff3b67459ff1cfaeae943414980dce3b.jpg" />
+                </Card>
+                <Card className="design-image">
+                    <Card.Img src="https://i.pinimg.com/originals/e9/06/cf/e906cf83ccdc0d1f3f01fc30a3bb6794.jpg" />
+                </Card>
+                <Card className="design-image">
+                    <Card.Img src="https://i.pinimg.com/originals/0c/8e/15/0c8e15eab20afd2fa705244bc0a642b0.jpg" />
+                </Card>
+                <Card className="design-image">
+                    <Card.Img src="https://i.pinimg.com/originals/c7/2b/4d/c72b4d2e0ebce6957e1bb5a9d357bab1.jpg" />
                 </Card>
             </CardColumns>
 
@@ -94,13 +109,31 @@ export default class Designs extends Component {
                         <Card.Img src="https://i.pinimg.com/originals/5f/c2/ea/5fc2ea436ac9223739a855743af71e23.jpg" />
                     </Card>
                     <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/ad/54/fc/ad54fcf11d131502d5d0438f9d84e15b.jpg" />
+                    </Card>
+                    <Card className="design-image">
                         <Card.Img src="https://i.pinimg.com/originals/e6/22/7c/e6227c07a6469298b1a421b0cd47778a.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/2d/a2/4e/2da24e8929274d63ae4ff224c24ad5e9.jpg" />
                     </Card>
                     <Card className="design-image">
                         <Card.Img src="https://i.pinimg.com/originals/a4/c1/71/a4c171866dec94da139aa938165ed1ab.jpg" />
                     </Card>
                     <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/e2/49/44/e2494425a0bbe3abd70fae56381fff50.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/4b/41/01/4b41017a0e46bd1834797f8d0b5d02c1.jpg" />
+                    </Card>
+                    <Card className="design-image">
                         <Card.Img src="https://i.pinimg.com/originals/1a/71/ee/1a71ee62d1e2d34afbac149f32fc7404.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/fe/e5/eb/fee5eb1a1d0faf6cdcfeb7d5592c1068.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/9d/9a/e1/9d9ae1e3a9322f54ca395c168eb77540.jpg" />
                     </Card>
                     <Card className="design-image">
                         <Card.Img src="https://i.pinimg.com/originals/5c/ac/7d/5cac7d4870bf0f78beab5ec44466a404.jpg" />
@@ -117,6 +150,15 @@ export default class Designs extends Component {
                     <Card className="design-image">
                         <Card.Img src="https://i.pinimg.com/originals/47/2c/54/472c546b4bff997aa7c4cd0867a49f41.jpg" />
                     </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/10/2b/ad/102bad19a3dd2cd817870eb7969f797f.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/0f/c5/03/0fc503bee608f8ebab701f9ea15db882.jpg" />
+                    </Card>
+                    <Card className="design-image">
+                        <Card.Img src="https://i.pinimg.com/originals/7c/cc/46/7ccc46e5c6c89ebbe9f3615ea8affe16.jpg" />
+                    </Card>
                 </CardColumns>
             </div>
         }
@@ -126,7 +168,7 @@ export default class Designs extends Component {
                     <div className="designs-heading">
                         <h1>CREATIONS</h1>
                     </div>
-                    <img src={shop_flowers} />
+                    <img src={designs_flowers} />
                 </div>
                 {/* <div className="heading">
                     <h1>Previous Works</h1>

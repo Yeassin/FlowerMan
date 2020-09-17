@@ -47,55 +47,26 @@ export default class Header extends Component {
     }
 
     render() {
-        let dropdown
-        const services_activate = {
-            display: 'flex'
-        }
-        const services_remove = {
-            display: 'none'
-        }
-        if (this.state.services === true) {
-            dropdown = <div id="services-dropdown" style={services_activate}>
-                <a href="/services">DESIGNS</a>
-                <a href="/services">MAKE YOUR OWN</a>
-            </div>
-        }
-        else if (this.state.services === false) {
-            dropdown = <div id="services-dropdown" style={services_remove}></div>
-        }
-
-        if (window.innerWidth >= 768 && this.state.mobile_nav) {
-            this.setState({
-                mobile_nav: false
-            })
-        }
 
         return (
             <header>
                 <Nav className="nav-container" onMouseLeave={this.disableServices}>
-                    {/* <Nav.Item>
-                        <Nav.Link href="/shop" onMouseEnter={this.disableServices}>SHOP</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/services" onMouseEnter={this.toggleServices}>SERVICES</Nav.Link>
-                        {dropdown}
-                    </Nav.Item> */}
                     <Nav.Item className="non-mobile-nav-item">
-                        <Nav.Link href="/FlowerMan/#/services" onMouseEnter={this.disableServices}>SERVICES</Nav.Link>
+                        <Nav.Link href="/FlowerMan/services" onMouseEnter={this.disableServices}>SERVICES</Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="non-mobile-nav-item">
-                        <Nav.Link href="/FlowerMan/#/designs" onMouseEnter={this.disableServices}>CREATIONS</Nav.Link>
+                        <Nav.Link href="/FlowerMan/designs" onMouseEnter={this.disableServices}>CREATIONS</Nav.Link>
                     </Nav.Item>
                     <Nav.Item id="home-link">
-                        <Nav.Link href="/FlowerMan" onMouseEnter={this.disableServices}>
+                        <Nav.Link href="/FlowerMan/" onMouseEnter={this.disableServices}>
                             <img src={logo} className="home-logo" />
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="non-mobile-nav-item">
-                        <Nav.Link href="/FlowerMan/#/about" onMouseEnter={this.disableServices}>ABOUT</Nav.Link>
+                        <Nav.Link href="/FlowerMan/about" onMouseEnter={this.disableServices}>ABOUT</Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="non-mobile-nav-item">
-                        <Nav.Link href="/FlowerMan/#/contact" onMouseEnter={this.disableServices}>CONTACT</Nav.Link>
+                        <Nav.Link href="/FlowerMan/contact" onMouseEnter={this.disableServices}>CONTACT</Nav.Link>
                     </Nav.Item>
                     <Nav.Item id="menu-link" onClick={this.toggleMenu}>
                         <div id="menu-container">
@@ -108,16 +79,16 @@ export default class Header extends Component {
                     <Modal.Body>
                         <Nav id="mobile-nav" onMouseLeave={this.disableServices}>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/services" onClick={this.disableMenu}>SERVICES</Nav.Link>
+                                <Nav.Link href="/FlowerMan/services" onClick={this.disableMenu}>SERVICES</Nav.Link>
                             </Nav.Item>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/designs" onClick={this.disableMenu}>CREATIONS</Nav.Link>
+                                <Nav.Link href="/FlowerMan/designs" onClick={this.disableMenu}>CREATIONS</Nav.Link>
                             </Nav.Item>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/about" onClick={this.disableMenu}>ABOUT</Nav.Link>
+                                <Nav.Link href="/FlowerMan/about" onClick={this.disableMenu}>ABOUT</Nav.Link>
                             </Nav.Item>
                             <Nav.Item className="mobile-nav-item">
-                                <Nav.Link href="/FlowerMan/#/contact" onClick={this.disableMenu}>CONTACT</Nav.Link>
+                                <Nav.Link href="/FlowerMan/contact" onClick={this.disableMenu}>CONTACT</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Modal.Body>

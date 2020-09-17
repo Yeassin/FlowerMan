@@ -7,25 +7,28 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Shop from './pages/Shop';
 import Services from './pages/Services';
 import Designs from './pages/Designs';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
-  
+
   return (
     <div className="App">
       <Header />
 
-      <HashRouter>
+      <Router basename="/FlowerMan">
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/shop" component={Shop} />
           <Route path="/designs" component={Designs} />
           <Route path="/services" component={Services} />
+          <Route component={PageNotFound} />
+        </Switch>
+      </Router>
 
-      </HashRouter>
+
       <Footer />
     </div>
   );

@@ -5,10 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, HashRouter } from 'react-router-dom';
 
+
 ReactDOM.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <Router>
     <App />
-  </HashRouter>,
+  </Router>,
   document.getElementById('root')
 );
 

@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Gothic-Fat;
+    src: url("../fonts/Quicksand/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Gothic-Medium;
+    src: url("../fonts/Quicksand/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: Gothic-Bold;
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf");
+}
+
 h3 {
     color: black;
 }
@@ -7,9 +22,11 @@ h3 {
 }
 
 .contact-heading {
+    font-family: Gothic-Fat;
     justify-content: center;
     position: absolute;
     width: 100%;
+    color: rgb(0, 100, 0);
 }
 
 .contact-banner {
@@ -24,11 +41,24 @@ h3 {
     object-fit: cover;
 }
 
+.contact-info {
+    font-family: Gothic-Medium;
+}
+
+#contact-page h1 {
+    font-family: Gothic-Bold;
+}
+
 .contact-form {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+.form-group label {
+    font-family: Gothic;
+    float: left;
 }
 
 .message-heading {
@@ -39,6 +69,7 @@ h3 {
     background-color: purple;
     border: none;
     outline: none;
+    font-family: Gothic;
 }
 
 #send-msg-btn:focus {
